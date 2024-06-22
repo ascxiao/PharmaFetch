@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "PharmaFetch",
+    "slug": "PharmaFetch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": 
+            ["./assets/fonts/GothamBold.ttf", "./assets/fonts/GothamMedium.ttf","./assets/fonts/GothamLight.ttf"]
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3d1c1618-5019-4d9b-8561-a617affedbe4"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3d1c1618-5019-4d9b-8561-a617affedbe4"
+    }
+  }
+}
